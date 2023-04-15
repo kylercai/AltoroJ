@@ -24,8 +24,7 @@ dependencies {
 		'javax:javaee-api:7.0'
 }
 
-bootWar {
-	archiveName 'altoromutual.war'
+war {
 	exclude 'WEB-INF/classes/**/*.class'
 	exclude 'WEB-INF/lib/**/*.jar'
 }

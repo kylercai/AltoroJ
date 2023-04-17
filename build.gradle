@@ -25,7 +25,7 @@ dependencies {
 }
 
 war {
-	archiveName = 'AltoroJ.war'
+	archiveFileName = 'AltoroJ.war'
 	exclude 'WEB-INF/classes/**/*.class'
 	exclude 'WEB-INF/lib/**/*.jar'
 }
